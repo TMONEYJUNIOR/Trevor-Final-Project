@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,62 +6,63 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .container {
+        /* Apply flexbox layout to the body */
+        body {
             display: flex;
-            flex-wrap: wrap; /* Allow wrapping to create multiple rows */
-            justify-content: center;
-            background-color: #B2B4B2;
-            text-align: left;
-            width: 40%;
-            border-radius: 10px;
-            border: 4px solid black;
-            margin-top: 10px;
+            flex-direction: column; /* Stack header, nav, content, and footer */
+            min-height: 100vh; /* Ensure it takes up at least full viewport height */
+            margin: 0; /* Remove default margin */
         }
     </style>
 </head>
 <body>
     <header>
+        <!-- Main title of the page -->
         <h1 style="color: rgb(0, 0, 0); text-align: center;">T's COLLECTION</h1>
     </header>
+    
     <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Me</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button>
-                    <div class="dropdown-content">
-                        <li><a href="Nintendo.html">Nintendo</a></li>
-                        <li><a href="SNES.html">SNES</a></li>
-                        <li><a href="Nintendo64.html">N64</a></li>
-                        <li><a href="PlayStation2.html">PS2</a></li>
-                        <li><a href="Playstation3.html">PS3</a></li>
-                        <li><a href="Playstation4.html">PS4</a></li>
-                        <li><a href="Playstation5.html">PS5</a></li>
-                        <li><a href="wii.html">Wii</a></li>
-                        <li><a href="wiiu.html">WiiU</a></li>
-                        <li><a href="NintendoDS.html">DS</a></li>
-                        <li><a href="Nintendo3DS.html">3DS</a></li>
-                        <li><a href="switch.html">Switch</a></li>
-                        <li><a href="MasterSystem.html">Master System</a></li>
-                    </div>
-            </ul>
-        </nav>
-        <div class="thing">
+        <ul class="nav-list">
+            <!-- Navigation links -->
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button>
+                <div class="dropdown-content">
+                    <!-- Dropdown menu for platforms -->
+                    <li><a href="Nintendo.html">Nintendo</a></li>
+                    <li><a href="SNES.html">SNES</a></li>
+                    <li><a href="Nintendo64.html">N64</a></li>
+                    <li><a href="PlayStation2.html">PS2</a></li>
+                    <li><a href="Playstation3.html">PS3</a></li>
+                    <li><a href="Playstation4.html">PS4</a></li>
+                    <li><a href="Playstation5.html">PS5</a></li>
+                    <li><a href="wii.html">Wii</a></li>
+                    <li><a href="wiiu.html">WiiU</a></li>
+                    <li><a href="NintendoDS.html">DS</a></li>
+                    <li><a href="Nintendo3DS.html">3DS</a></li>
+                    <li><a href="switch.html">Switch</a></li>
+                    <li><a href="MasterSystem.html">Master System</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="thing">
+        <div class="container">
             <div class="text-style">
-            <h2>
-                CONTACT
-            </h2>
-        <h4>
-            Email: Jrt.money09@gmail.com
-        </h4>
-        <h4>
-            Phone: 204-619-5003
-        </h4>
-        <h4>
-            Discord: t_money_jr
-        </h4>
-    </div></div>
-        
+                <h2>CONTACT</h2>
+                <h4>Email: Jrt.money09@gmail.com</h4>
+                <h4>Phone: 204-619-5003</h4>
+                <h4>Discord: t_money_jr</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <!-- Footer with copyright information -->
+        <p>&copy; 2025 Trevor Lord</p>
+    </footer>
 </body>
 </html>

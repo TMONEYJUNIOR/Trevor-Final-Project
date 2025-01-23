@@ -7,49 +7,51 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .container {
-            display: flex;
+            display: flex; /* Use flexbox layout */
             flex-wrap: wrap; /* Allow wrapping to create multiple rows */
-            justify-content: center;
-            background-color: #B2B4B2;
-            text-align: left;
-            width: 26%;
-            border-radius: 10px;
-            border: 4px solid black;
-            margin-top: 10px;
+            justify-content: center; /* Center items within the container */
+            background-color: #B2B4B2; /* Background color of the container */
+            text-align: left; /* Align text to the left */
+            width: 26%; /* Set the width of the container */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid black; /* Border around the container */
+            margin-top: 10px; /* Space above the container */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 style="color: rgb(0, 0, 0); text-align: center;">T's COLLECTION</h1>
+        <h1 style="color: rgb(0, 0, 0); text-align: center;">T's COLLECTION</h1> <!-- Main title of the page -->
     </header>
     <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Me</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button>
-                    <div class="dropdown-content">
-                        <li><a href="Nintendo.html">Nintendo</a></li>
-                        <li><a href="SNES.html">SNES</a></li>
-                        <li><a href="Nintendo64.html">N64</a></li>
-                        <li><a href="PlayStation2.html">PS2</a></li>
-                        <li><a href="Playstation3.html">PS3</a></li>
-                        <li><a href="Playstation4.html">PS4</a></li>
-                        <li><a href="Playstation5.html">PS5</a></li>
-                        <li><a href="wii.html">Wii</a></li>
-                        <li><a href="wiiu.html">WiiU</a></li>
-                        <li><a href="NintendoDS.html">DS</a></li>
-                        <li><a href="Nintendo3DS.html">3DS</a></li>
-                        <li><a href="switch.html">Switch</a></li>
-                        <li><a href="MasterSystem.html">Master System</a></li>
-                    </div>
-            </ul>
-        </nav>
-        <div class="thing">
-            <div class="container">
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li> <!-- Link to Home page -->
+            <li><a href="about.html" class="nav-link">About Me</a></li> <!-- Link to About Me page -->
+            <li><a href="contact.html" class="nav-link">Contact</a></li> <!-- Link to Contact page -->
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button> <!-- Dropdown button -->
+                <div class="dropdown-content"> <!-- Dropdown menu for platforms -->
+                    <li><a href="Nintendo.html">Nintendo</a></li>
+                    <li><a href="SNES.html">SNES</a></li>
+                    <li><a href="Nintendo64.html">N64</a></li>
+                    <li><a href="PlayStation2.html">PS2</a></li>
+                    <li><a href="Playstation3.html">PS3</a></li>
+                    <li><a href="Playstation4.html">PS4</a></li>
+                    <li><a href="Playstation5.html">PS5</a></li>
+                    <li><a href="wii.html">Wii</a></li>
+                    <li><a href="wiiu.html">WiiU</a></li>
+                    <li><a href="NintendoDS.html">DS</a></li>
+                    <li><a href="Nintendo3DS.html">3DS</a></li>
+                    <li><a href="switch.html">Switch</a></li>
+                    <li><a href="MasterSystem.html">Master System</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="thing">
+        <div class="container">
             <ul>
+                <!-- List of games -->
                 <li>Army of Two</li>
                 <li>Army of Two: 40 Day</li>
                 <li>Army of Two: The Devil's Cartel Overkill Edition</li>
@@ -94,8 +96,11 @@
                 <li>Tom Clancy's Splinter Cell Trilogy</li>
                 <li>Uncharted: Drake's Fortune</li>
                 <li>X-Men Origins: Wolverine</li>
-            </ul></div>
-        
+            </ul>
         </div>
+    </div>
+    <footer class="footer">
+        <p style="text-align: center;">&copy; 2025 Trevor Lord</p> <!-- Footer with copyright information -->
+    </footer>
 </body>
 </html>

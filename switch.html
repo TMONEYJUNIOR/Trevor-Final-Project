@@ -7,78 +7,82 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .container {
-            display: flex;
+            display: flex; /* Use flexbox layout */
             flex-wrap: wrap; /* Allow wrapping to create multiple rows */
-            justify-content: center;
-            background-color: #B2B4B2;
-            text-align: left;
-            width: 35%;
-            border-radius: 10px;
-            border: 4px solid black;
-            margin-top: 10px;
+            justify-content: center; /* Center items within the container */
+            background-color: #B2B4B2; /* Background color of the container */
+            text-align: left; /* Align text to the left */
+            width: 35%; /* Set the width of the container */
+            border-radius: 10px; /* Rounded corners */
+            border: 4px solid black; /* Border around the container */
+            margin-top: 10px; /* Space above the container */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 style="color: rgb(0, 0, 0); text-align: center;">T's COLLECTION</h1>
+        <h1 style="color: rgb(0, 0, 0); text-align: center;">T's COLLECTION</h1> <!-- Main title of the page -->
     </header>
     <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About Me</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button>
-                    <div class="dropdown-content">
-                        <li><a href="Nintendo.html">Nintendo</a></li>
-                        <li><a href="SNES.html">SNES</a></li>
-                        <li><a href="Nintendo64.html">N64</a></li>
-                        <li><a href="PlayStation2.html">PS2</a></li>
-                        <li><a href="Playstation3.html">PS3</a></li>
-                        <li><a href="Playstation4.html">PS4</a></li>
-                        <li><a href="Playstation5.html">PS5</a></li>
-                        <li><a href="wii.html">Wii</a></li>
-                        <li><a href="wiiu.html">WiiU</a></li>
-                        <li><a href="NintendoDS.html">DS</a></li>
-                        <li><a href="Nintendo3DS.html">3DS</a></li>
-                        <li><a href="switch.html">Switch</a></li>
-                        <li><a href="MasterSystem.html">Master System</a></li>
-                    </div>
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li> <!-- Link to Home page -->
+            <li><a href="about.html" class="nav-link">About Me</a></li> <!-- Link to About Me page -->
+            <li><a href="contact.html" class="nav-link">Contact</a></li> <!-- Link to Contact page -->
+            <div class="dropdown">
+                <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Platforms ▼</button> <!-- Dropdown button -->
+                <div class="dropdown-content"> <!-- Dropdown menu for platforms -->
+                    <li><a href="Nintendo.html">Nintendo</a></li>
+                    <li><a href="SNES.html">SNES</a></li>
+                    <li><a href="Nintendo64.html">N64</a></li>
+                    <li><a href="PlayStation2.html">PS2</a></li>
+                    <li><a href="Playstation3.html">PS3</a></li>
+                    <li><a href="Playstation4.html">PS4</a></li>
+                    <li><a href="Playstation5.html">PS5</a></li>
+                    <li><a href="wii.html">Wii</a></li>
+                    <li><a href="wiiu.html">WiiU</a></li>
+                    <li><a href="NintendoDS.html">DS</a></li>
+                    <li><a href="Nintendo3DS.html">3DS</a></li>
+                    <li><a href="switch.html">Switch</a></li>
+                    <li><a href="MasterSystem.html">Master System</a></li>
                 </div>
+            </div>
+        </ul>
+    </nav>
+    <div class="thing">
+        <div class="container">
+            <ul>
+                <!-- List of games -->
+                <li>Animal Crossing: New Horizons</li>
+                <li>Captain Toad: Treasure Tracker</li>
+                <li>Just Dance 2019</li>
+                <li>Just Dance 2020</li>
+                <li>Just Dance 2021</li>
+                <li>Just Dance 2022</li>
+                <li>Just Dance 2024</li>
+                <li>L.O.L. Surprise! Remix: We Rule the World</li>
+                <li>Mario Party Superstars</li>
+                <li>Minecraft Dungeons Hero Edition</li>
+                <li>Minecraft: Story Mode - The Complete Adventure</li>
+                <li>Mortal Kombat 11</li>
+                <li>NBA 2K Playgrounds 2</li>
+                <li>Nintendo Labo: Toy-Con 01</li>
+                <li>Spongebob Squarepants: Battle for Bikini Bottom - Rehydrated</li>
+                <li>Splatoon 2</li>
+                <li>Spintires: MudRunner - American Wilds</li>
+                <li>Star Wars Jedi Knight Collection</li>
+                <li>Super Mario Bros 3D All-Stars</li>
+                <li>Super Mario Bros Wonder</li>
+                <li>Super Mario Odyssey</li>
+                <li>Super Smash Bros Ultimate</li>
+                <li>The Legend of Zelda: Link's Awakening</li>
+                <li>The Lego Ninjago Movie Videogame</li>
+                <li>The Survivalists</li>
+                <li>Tony Hawk's Pro Skater 1+2</li>
             </ul>
-        </nav>
-        <div>
-            <div class="container">
-                <ul>
-                    <li>Animal Crossing: New Horizons</li>
-                    <li>Captain Toad: Treasure Tracker</li>
-                    <li>Just Dance 2019</li>
-                    <li>Just Dance 2020</li>
-                    <li>Just Dance 2021</li>
-                    <li>Just Dance 2022</li>
-                    <li>Just Dance 2024</li>
-                    <li>L.O.L. Surprise! Remix: We Rule the World</li>
-                    <li>Mario Party Superstars</li>
-                    <li>Minecraft Dungeons Hero Edition</li>
-                    <li>Minecraft: Story Mode - The Complete Adventure</li>
-                    <li>Mortal Kombat 11</li>
-                    <li>NBA 2K Playgrounds 2</li>
-                    <li>Nintendo Labo: Toy-Con 01</li>
-                    <li>Spongebob Squarepants: Battle for Bikini Bottom - Rehydrated</li>
-                    <li>Splatoon 2</li>
-                    <li>Spintires: MudRunner - American Wilds</li>
-                    <li>Star Wars Jedi Knight Collection</li>
-                    <li>Super Mario Bros 3D All-Stars</li>
-                    <li>Super Mario Bros Wonder</li>
-                    <li>Super Mario Odyssey</li>
-                    <li>Super Smash Bros Ultimate</li>
-                    <li>The Legend of Zelda: Link's Awakening</li>
-                    <li>The Lego Ninjago Movie Videogame</li>
-                    <li>The Survivalists</li>
-                    <li>Tony Hawk's Pro Skater 1+2</li>
-                </ul>
         </div>
-        </div>
+    </div>
+    <footer class="footer">
+        <p style="text-align: center;">&copy; 2025 Trevor Lord</p> <!-- Footer with copyright information -->
+    </footer>
 </body>
 </html>
